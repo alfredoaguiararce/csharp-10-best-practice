@@ -1,8 +1,4 @@
-﻿using System;
-using System.Text.Json;
-using System.Xml.Serialization;
-
-namespace carvedrock.bl.principles.YAGNI
+﻿namespace carvedrock.bl.principles.YAGNI
 {
 
     public class YAGNI
@@ -13,15 +9,6 @@ namespace carvedrock.bl.principles.YAGNI
 
             Console.WriteLine("JSON");
             Console.WriteLine(regularBackpack.ToJson());
-
-            Console.WriteLine("XML");
-            Console.WriteLine(regularBackpack.ToXml());
-
-            Console.WriteLine("CSV");
-            Console.WriteLine(regularBackpack.ToCsv());
-
-            Console.WriteLine("TSV");
-            Console.WriteLine(regularBackpack.ToTsv());
 
         }
     }
