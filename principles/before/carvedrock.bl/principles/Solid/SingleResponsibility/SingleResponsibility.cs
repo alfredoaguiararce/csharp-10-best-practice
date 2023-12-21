@@ -1,7 +1,6 @@
-﻿using System;
-namespace carvedrock.bl.principles.Solid
+﻿namespace carvedrock.bl.principles.Solid
 {
-	public class Circle
+    public class Circle
 	{
 		private double Radius;
 
@@ -15,10 +14,6 @@ namespace carvedrock.bl.principles.Solid
 			return 2 * 3.1415 * Radius;
 		}
 
-		public void PlotCircleOnCanvas(Canvas canvas)
-		{
-			// This does not belong here!
-		}
     }
 }
 
