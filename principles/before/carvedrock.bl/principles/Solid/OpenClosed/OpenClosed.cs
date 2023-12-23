@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text.Json;
+﻿using System.Text.Json;
 
 namespace carvedrock.bl.principles.Solid.OpenClosed
 {
@@ -12,7 +11,9 @@ namespace carvedrock.bl.principles.Solid.OpenClosed
                 ""Latitude"":10.0731,
                 ""Longitude"":84.3123,
                 ""Description"":""Clouds and sun"",
-                ""TemperatureC"":25
+                ""TemperatureC"":25,
+                ""Humidity"":24,
+                ""Wind"":16
             }";
 
 
