@@ -1,4 +1,5 @@
-﻿using System;
+﻿using carvedrock.bl.principles.Solid.DependencyInversion.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,9 @@ namespace carvedrock.bl.principles.Solid.DependencyInversion
 {
     public class SalesReport
     {
-        private SqlServerDatabase _database;
+        private IDatabase _database;
 
-        public SalesReport(SqlServerDatabase database)
+        public SalesReport(IDatabase database)
         {
             _database = database;
         }
