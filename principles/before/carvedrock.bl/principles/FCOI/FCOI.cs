@@ -5,10 +5,12 @@
         public FCOI()
         {
             Employee employee = new();
-            employee.title = "Architect";
-            employee.name = "John Doe";
-            employee.age = 35;
+            Person person = new();
+            person.title = "Architect";
+            person.name = "John Doe";
+            person.age = 35;
             employee.salary = 1500;
+            employee.person = person;
         }
     }
 }
