@@ -9,5 +9,9 @@
             this.salary = salary;
             this.person = person;
         }
+
+        public Employee()
+        {
+        }
     }
 }
