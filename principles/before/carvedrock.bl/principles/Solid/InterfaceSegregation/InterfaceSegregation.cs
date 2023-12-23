@@ -10,10 +10,8 @@
 
 
             ColdCoffeeMachine.GetColdCoffee();
-            ColdCoffeeMachine.GetExpressoCoffee(); // This fails
 
             MokaExpressoMachine.GetExpressoCoffee();
-            MokaExpressoMachine.GetColdCoffee(); // This fails
 
         }
     }

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using carvedrock.bl.principles.Solid.InterfaceSegregation.Interfaces;
 
 namespace carvedrock.bl.principles.Solid.InterfaceSegregation
 {
-    public class ColdBrewCoffeeMaker : ICoffeeMachine
+    public class ColdBrewCoffeeMaker : IColdCoffeMachine
     {
         private int _coffeeBeans; 
         private int _water;
@@ -26,11 +22,6 @@ namespace carvedrock.bl.principles.Solid.InterfaceSegregation
         public void GetColdCoffee()
         {
             Console.WriteLine("Making Cold Brew");
-        }
-
-        public void GetExpressoCoffee()
-        {
-            throw new NotImplementedException();
         }
     }
 }
